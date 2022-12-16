@@ -1,13 +1,128 @@
 <!DOCTYPE HTML>
 <html>
-<body>
-<center>
 <head>
-<title>Main Page</title>
+<title>Test</title>
+<style>
+.header {
+  height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.header a {
+  text-decoration: none;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: bold;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.sidebar {
+  width: 300px;
+  height: 530px;
+  justify-content: center;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.container {
+  width: 1100px;
+  height: 530px;
+  justify-content: center;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.footer {
+  height: 50px;
+  justify-content: center;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.flex-items {
+  clear: both;
+  text-align: center;
+  line-height: 1;
+}
+
+body {
+  background-image: url("https://i.imgur.com/t1LxDEP.png");
+}
+
+table, td, th {
+  border: 0px solid black;
+  border-collapse: collapse;
+  width: 75%;
+  height: 0px;
+  padding: 15px;
+}
+
+h1 {
+  font-family: 'proxima-nova', serif;
+  color: white;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'proxima-nova', serif;
+  color: white;
+}
+
+p {
+  font-family: 'proxima-nova', serif;
+  color: white;
+}
+</style>
 </head>
 <body>
-<h1>welcome to the page, wip</h1>
-</body>
-</center>
+<ul class="header">
+  <li><a href="https://williamschiv.us">Main</a></li>
+  <li><a href="https://williamschiv.us/about">About</a></li>
+  <li><a href="https://williamschiv.us/blog">Blog</a></li>
+  <li><a href="https://williamschiv.us/projects">Projects</a></li>
+  <li><a href="https://williamschiv.us/socials">Socials</a></li>
+</ul>
+<br/>
+<center><table>
+<tr>
+<td><div class="sidebar">
+<div class="flex-items"><h1>Main Page</h1></div>
+<div class="flex-items"><img src="https://i.imgur.com/zSh8w42.png" width="200" height="200"/></div>
+<div class="flex-items"><h2>Directory</h2></div>
+<div class="flex-items"><center><p><a href="https://williamschiv.us">Main</a> • <a href="https://williamschiv.us/about">About</a> • <a href="https://williamschiv.us/blog">Blog</a> • <a href="https://williamschiv.us/projects">Projects</a> • <a href="https://williamschiv.us/socials">Socials</a></p></center></div>
+<div class="flex items"><center><p><a href="https://williamschiv.us/website">Website</a> • <a href="https://williamschiv.us/contact">Contact</a> • <a href="https://williamschiv.us/q&a">Q&A</a> • <a href="https://williamschiv.us/history">History</a></p></center></div>
+<div class="flex-items"><center><p><a href="https://williamschiv.us/twitch">Twitch</a> • <a href="https://williamschiv.us/youtube">YouTube</a> • <a href="https://williamschiv.us/youtube">YouTube</a> • <a href="https://williamschiv.us/github">GitHub</a></p></center></div>
+</td>
+</div></td>
+<td><div class="container">
+<div class="flex-items"><h1>Welcome</h1></div>
+<div class="flex-items"><p>Welcome to William's personal website. Here you will find a portfolio of art, color combinations, and miscellaneous stuff I have created.
+<br/><br/>
+The goal for this website is to create something where I can store all of my projects and ideas, whilst simultaneously trying to learn how to program better.
+<br/><br/>
+This website is still fairly new so a lot is still missing. Over time I will continue to update this website and add new features, so don't expect anything drastic to happen.
+<br/><br/>
+Socials can be found <a href="https://williamschiv.us/socials">here</a>.</p></div>
+<div class="flex-items"><img src="https://i.imgur.com/YpaHNHJ.png" width="750" height="200"/></div></td>
+</tr>
+</table></center>
+<br/>
+<div class="footer">
+<center><img src="https://i.imgur.com/wkhFidH.png" title="williamschiv#1422" width="50" height="50"/>
+<a href="https://www.twitch.tv/williamschiv" width="50" height="50"><img src="https://i.imgur.com/8NrV4pm.png" width="50" height="50"/></a>
+<a href="https://www.youtube.com/@williamschiv3532" width="50" height="50"><img src="https://i.imgur.com/PSPWIVc.png" width="50" height="50"/></a>
+<a href="https://github.com/williamschiv" width="50" height="50"><img src="https://i.imgur.com/hWuoBvO.png" width="50" height="50"/></a>
+<img src="https://i.imgur.com/QSRvlEg.png" title="williamschiv14@gmail.com" width="50" height="50"/></center>
+</div>
 </body>
 </html>
