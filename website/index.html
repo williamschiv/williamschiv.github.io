@@ -1,11 +1,122 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Website</title>
+<title>Main Page</title>
+<style>
+.header {
+  height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.header a {
+  text-decoration: none;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: bold;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.sidebar {
+  width: 300px;
+  height: 530px;
+  justify-content: center;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.container {
+  width: 1100px;
+  height: 530px;
+  justify-content: center;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.footer {
+  height: 50px;
+  justify-content: center;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.flex-items {
+  clear: both;
+  text-align: center;
+  line-height: 1;
+}
+
+body {
+  background-image: url("images/redandblack6.png");
+}
+
+table, td, th {
+  border: 0px solid black;
+  border-collapse: collapse;
+  width: 75%;
+  height: 0px;
+  padding: 15px;
+}
+
+h1 {
+  font-family: 'proxima-nova', serif;
+  color: white;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'proxima-nova', serif;
+  color: white;
+}
+
+p {
+  font-family: 'proxima-nova', serif;
+  color: white;
+}
+</style>
 </head>
 <body>
-<center>
-<h1>Nothing here yet</h1>
-</center>
+<ul class="header">
+  <li><a href="https://williamschiv.us">Main</a></li>
+  <li><a href="https://williamschiv.us/about">About</a></li>
+  <li><a href="https://williamschiv.us/blog">Blog</a></li>
+  <li><a href="https://williamschiv.us/projects">Projects</a></li>
+  <li><a href="https://williamschiv.us/socials">Socials</a></li>
+</ul>
+<br/>
+<center><table>
+<tr>
+<td><div class="sidebar">
+<div class="flex-items"><h1>Website</h1></div>
+<div class="flex-items"><img src="images/wiconborder.png" width="200" height="200"/></div>
+<div class="flex-items"><h2>Directory</h2></div>
+<div class="flex-items"><center><p><a href="https://williamschiv.us">Main</a> • <a href="https://williamschiv.us/about">About</a> • <a href="https://williamschiv.us/blog">Blog</a> • <a href="https://williamschiv.us/projects">Projects</a> • <a href="https://williamschiv.us/socials">Socials</a></p></center></div>
+<div class="flex items"><center><p><a href="https://williamschiv.us/updates">Updates</a> • <a href="https://williamschiv.us/website">Website</a> • <a href="https://williamschiv.us/contact">Contact</a> • <a href="https://williamschiv.us/q&a">Q&A</a> • <a href="https://williamschiv.us/history">History</a></p></center></div>
+<div class="flex-items"><center><p><a href="https://williamschiv.us/twitch">Twitch</a> • <a href="https://williamschiv.us/youtube">YouTube</a> • <a href="https://williamschiv.us/youtube">YouTube</a> • <a href="https://williamschiv.us/github">GitHub</a></p></center></div>
+</td>
+</div></td>
+<td><div class="container">
+<div class="flex-items"><h1>Website Information</h1></div>
+<div class="flex-items"><p>This page has not been constructed yet. Check out the <a href="https://williamschiv.us/updates">updates</a> page for website updates to see what is complete.</p></div>
+</td>
+</tr>
+</table></center>
+<br/>
+<div class="footer">
+<center><img src="images/discordlogo.png" title="williamschiv#1422" width="50" height="50"/>
+<a href="https://www.twitch.tv/williamschiv" width="50" height="50"><img src="images/twitchlogo.png" width="50" height="50"/></a>
+<a href="https://www.youtube.com/@williamschiv3532" width="50" height="50"><img src="images/youtubelogo.png" width="50" height="50"/></a>
+<a href="https://github.com/williamschiv" width="50" height="50"><img src="images/githublogo.png" width="50" height="50"/></a>
+<img src="images/emaillogo.png" title="williamschiv14@gmail.com" width="50" height="50"/></center>
+</div>
 </body>
 </html>
