@@ -55,10 +55,6 @@
   line-height: 1;
 }
 
-body {
-  background-image: url("images/redandblack6.png");
-}
-
 table, td, th {
   border: 0px solid black;
   border-collapse: collapse;
@@ -114,9 +110,23 @@ p {
 <div class="footer">
 <center><img src="images/discordlogo.png" title="williamschiv#1422" width="50" height="50"/>
 <a href="https://www.twitch.tv/williamschiv" width="50" height="50"><img src="images/twitchlogo.png" width="50" height="50"/></a>
-<a href="https://www.youtube.com/@williamschiv3532" width="50" height="50"><img src="images/youtubelogo.png" width="50" height="50"/></a>
+<a href="https://www.youtube.com/@williamschiv4" width="50" height="50"><img src="images/youtubelogo.png" width="50" height="50"/></a>
 <a href="https://github.com/williamschiv" width="50" height="50"><img src="images/githublogo.png" width="50" height="50"/></a>
 <img src="images/emaillogo.png" title="williamschiv14@gmail.com" width="50" height="50"/></center>
 </div>
+<script>
+  var images = [], 
+  index = 0;
+  
+  images[0] = "images/redandblack1.png";
+  images[1] = "images/redandblack6.png";
+  images[2] = "images/redandblack7.png";
+  images[3] = "images/redandblack9.png";
+  images[4] = "images/redandblack10.png";
+  images[5] = "images/rainbow.gif";
+  
+  index = Math.floor(Math.random() * images.length);
+  document.body.style.background = "#fff url('"+images[index]+"') repeat center center fixed";
+</script>
 </body>
 </html>
