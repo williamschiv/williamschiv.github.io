@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Art</title>
+<style>
+.header {
+  height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.header a {
+  text-decoration: none;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: bold;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.sidebar {
+  width: 300px;
+  height: 1030px;
+  justify-content: center;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.container {
+  width: 1100px;
+  height: 1030px;
+  justify-content: center;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.footer {
+  height: 50px;
+  justify-content: center;
+  margin: 0; 
+  background: red;
+  border: 3px solid black;
+}
+
+.flex-items {
+  clear: both;
+  text-align: center;
+  line-height: 1;
+}
+
+table, td, th {
+  border: 0px solid black;
+  border-collapse: collapse;
+  width: 75%;
+  height: 0px;
+  padding: 15px;
+}
+
+h1 {
+  font-family: 'proxima-nova', serif;
+  color: white;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'proxima-nova', serif;
+  color: white;
+}
+
+p {
+  font-family: 'proxima-nova', serif;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'proxima-nova', serif;
+}
+
+.head {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+<ul class="header">
+  <li><a href="https://williamschiv.us">Main</a></li>
+  <li><a href="https://williamschiv.us/about">About</a></li>
+  <li><a href="https://williamschiv.us/blog">Blog</a></li>
+  <li><a href="https://williamschiv.us/projects">Projects</a></li>
+  <li><a href="https://williamschiv.us/socials">Socials</a></li>
+</ul>
+<br/>
+<center><table>
+<tr>
+<td><div class="sidebar">
+<div class="flex-items"><h1>Art</h1></div>
+<div class="flex-items"><img src="images/wiconborder.png" width="200" height="200"/></div>
+<div class="flex-items"><h2>Directory</h2></div>
+<div class="flex-items"><center><p><a href="https://williamschiv.us">Main</a> • <a href="https://williamschiv.us/about">About</a> • <a href="https://williamschiv.us/blog">Blog</a> • <a href="https://williamschiv.us/projects">Projects</a> • <a href="https://williamschiv.us/socials">Socials</a></p></center></div>
+<div class="flex items"><center><p><a href="https://williamschiv.us/updates">Updates</a> • <a href="https://williamschiv.us/website">Website</a> • <a href="https://williamschiv.us/contact">Contact</a> • <a href="https://williamschiv.us/q&a">Q&A</a> • <a href="https://williamschiv.us/history">History</a></p></center></div>
+<div class="flex-items"><center><p><a href="https://williamschiv.us/twitch">Twitch</a> • <a href="https://williamschiv.us/youtube">YouTube</a> • <a href="https://williamschiv.us/github">GitHub</a></p></center></div>
+</td>
+</div></td>
+<td><div class="container">
+<div class="flex-items">
+<div class="head" id="myHeader">
+<h1>My Abstract Art</h1>
+<p>Click on the buttons to change the grid view.</p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+</div>
+</div>
+<div class="flex-items">
+<div class="row"> 
+  <div class="column">
+<img src="images/artimages/o1.png" style="width:100%"/>
+<img src="images/artimages/o2.png" style="width:100%"/>
+<img src="images/artimages/o3.png" style="width:100%"/>
+<img src="images/artimages/o4.png" style="width:100%"/>
+<img src="images/artimages/o5.png" style="width:100%"/>
+<img src="images/artimages/o6.png" style="width:100%"/>
+<img src="images/artimages/o7.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/o8.png" style="width:100%"/>
+<img src="images/artimages/o9.png" style="width:100%"/>
+<img src="images/artimages/o10.png" style="width:100%"/>
+<img src="images/artimages/o11.png" style="width:100%"/>
+<img src="images/artimages/o12.png" style="width:100%"/>
+<img src="images/artimages/o13.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/o14.png" style="width:100%"/>
+<img src="images/artimages/o15.png" style="width:100%"/>
+<img src="images/artimages/o16.png" style="width:100%"/>
+<img src="images/artimages/o17.png" style="width:100%"/>
+<img src="images/artimages/o18.png" style="width:100%"/>
+<img src="images/artimages/o19.png" style="width:100%"/>
+<img src="images/artimages/o20.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/o21.png" style="width:100%"/>
+<img src="images/artimages/o22.png" style="width:100%"/>
+<img src="images/artimages/o23.png" style="width:100%"/>
+<img src="images/artimages/o24.png" style="width:100%"/>
+<img src="images/artimages/o25.png" style="width:100%"/>
+<img src="images/artimages/o26.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/o27.png" style="width:100%"/>
+<img src="images/artimages/o28.png" style="width:100%"/>
+<img src="images/artimages/o29.png" style="width:100%"/>
+<img src="images/artimages/o30.png" style="width:100%"/>
+<img src="images/artimages/o31.png" style="width:100%"/>
+<img src="images/artimages/o32.png" style="width:100%"/>
+<img src="images/artimages/o33.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/o34.png" style="width:100%"/>
+<img src="images/artimages/o35.png" style="width:100%"/>
+<img src="images/artimages/o36.png" style="width:100%"/>
+<img src="images/artimages/o37.png" style="width:100%"/>
+<img src="images/artimages/o38.png" style="width:100%"/>
+<img src="images/artimages/o39.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/o40.png" style="width:100%"/>
+<img src="images/artimages/001.png" style="width:100%"/>
+<img src="images/artimages/002.png" style="width:100%"/>
+<img src="images/artimages/003.png" style="width:100%"/>
+<img src="images/artimages/004.png" style="width:100%"/>
+<img src="images/artimages/005.png" style="width:100%"/>
+<img src="images/artimages/006.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/007.png" style="width:100%"/>
+<img src="images/artimages/008.png" style="width:100%"/>
+<img src="images/artimages/009.png" style="width:100%"/>
+<img src="images/artimages/010.png" style="width:100%"/>
+<img src="images/artimages/011.png" style="width:100%"/>
+<img src="images/artimages/012.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/013.png" style="width:100%"/>
+<img src="images/artimages/014.png" style="width:100%"/>
+<img src="images/artimages/015.png" style="width:100%"/>
+<img src="images/artimages/016.png" style="width:100%"/>
+<img src="images/artimages/017.png" style="width:100%"/>
+<img src="images/artimages/018.png" style="width:100%"/>
+<img src="images/artimages/019.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/020.png" style="width:100%"/>
+<img src="images/artimages/021.png" style="width:100%"/>
+<img src="images/artimages/022.png" style="width:100%"/>
+<img src="images/artimages/023.png" style="width:100%"/>
+<img src="images/artimages/024.png" style="width:100%"/>
+<img src="images/artimages/025.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/026.png" style="width:100%"/>
+<img src="images/artimages/027.png" style="width:100%"/>
+<img src="images/artimages/028.png" style="width:100%"/>
+<img src="images/artimages/029.png" style="width:100%"/>
+<img src="images/artimages/030.png" style="width:100%"/>
+<img src="images/artimages/031.png" style="width:100%"/>
+<img src="images/artimages/032.png" style="width:100%"/>
+</div>
+<div class="column">
+<img src="images/artimages/033.png" style="width:100%"/>
+<img src="images/artimages/034.png" style="width:100%"/>
+<img src="images/artimages/035.png" style="width:100%"/>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table></center>
+<br/>
+<div class="footer">
+<center><img src="images/discordlogo.png" title="williamschiv#1422" width="50" height="50"/>
+<a href="https://www.twitch.tv/williamschiv" width="50" height="50"><img src="images/twitchlogo.png" width="50" height="50"/></a>
+<a href="https://www.youtube.com/@williamschiv4" width="50" height="50"><img src="images/youtubelogo.png" width="50" height="50"/></a>
+<a href="https://github.com/williamschiv" width="50" height="50"><img src="images/githublogo.png" width="50" height="50"/></a>
+<img src="images/emaillogo.png" title="williamschiv14@gmail.com" width="50" height="50"/></center>
+</div>
+<script>
+  var images = [], 
+  index = 0;
+  
+  images[0] = "images/redandblack1.png";
+  images[1] = "images/redandblack6.png";
+  images[2] = "images/redandblack7.png";
+  images[3] = "images/redandblack9.png";
+  images[4] = "images/redandblack10.png";
+  images[5] = "images/rainbow.gif";
+  
+  index = Math.floor(Math.random() * images.length);
+  document.body.style.background = "#fff url('"+images[index]+"') repeat center center fixed";
+
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+</body>
+</html>
