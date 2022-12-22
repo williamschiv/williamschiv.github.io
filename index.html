@@ -81,7 +81,7 @@ Socials can be found <a href="https://williamschiv.us/socials">here</a>.</p></di
     function initThemeSelector() {
         const themeSelect = document.getElementById("themeSelect");
         const themeStylesheetLink = document.getElementById("themeStylesheetLink");
-        const currentTheme = localStorage.getItem("theme") || "1";
+        const currentTheme = localStorage.getItem("theme") || "01";
 
         function activateTheme(themeName) {
             themeStylesheetLink.setAttribute("href", `css/themes/${themeName}.css`);
