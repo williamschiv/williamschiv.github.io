@@ -3,6 +3,11 @@
   --primary-text-color: #000000;
 }
 
+* {
+  background-image: url("css/themes/backgrounds/1.png");
+  background-color: #FF0000;
+}
+
 ::selection {
   background: #000000;
   color: #ff0000;
@@ -11,11 +16,6 @@
 ::-moz-selection {
   background: #000000;
   color: #ff0000;
-}
-
-body {
-  background-image: url("css/themes/backgrounds/1.png");
-  background-color: #FF0000;
 }
 
 .header {
