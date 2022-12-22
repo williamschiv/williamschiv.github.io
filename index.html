@@ -1,84 +1,15 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
 <title>Main Page</title>
-<style>
-.header {
-  height: 50px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  list-style: none;
-  margin: 0; 
-  background: red;
-  border: 3px solid black;
-}
-
-.header a {
-  text-decoration: none;
-  font-family: 'proxima-nova', sans-serif;
-  font-weight: bold;
-  display: block;
-  padding: 1em;
-  color: white;
-}
-
-.sidebar {
-  width: 300px;
-  height: 530px;
-  justify-content: center;
-  margin: 0; 
-  background: red;
-  border: 3px solid black;
-}
-
-.container {
-  width: 1100px;
-  height: 530px;
-  justify-content: center;
-  margin: 0; 
-  background: red;
-  border: 3px solid black;
-}
-
-.footer {
-  height: 50px;
-  justify-content: center;
-  margin: 0; 
-  background: red;
-  border: 3px solid black;
-}
-
-.flex-items {
-  clear: both;
-  text-align: center;
-  line-height: 1;
-}
-
-table, td, th {
-  border: 0px solid black;
-  border-collapse: collapse;
-  width: 75%;
-  height: 0px;
-  padding: 15px;
-}
-
-h1 {
-  font-family: 'proxima-nova', serif;
-  color: white;
-  font-size: 40px;
-}
-
-h2 {
-  font-family: 'proxima-nova', serif;
-  color: white;
-}
-
-p {
-  font-family: 'proxima-nova', serif;
-  color: white;
-}
-</style>
+<meta charset="UTF-8">
+<meta name="description" content="The personal website for William Schoenling.">
+<meta name="keywords" content="HTML,CSS,JavaScript,Personal,William">
+<meta name="author" content="William Schoenling">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<link rel="stylesheet" id="themeStylesheetLink" href="css/themes/01.css">
+<link rel="stylesheet" href="css/common.css">
 </head>
 <body>
 <ul class="header">
@@ -89,18 +20,41 @@ p {
   <li><a href="https://williamschiv.us/socials">Socials</a></li>
 </ul>
 <br/>
-<center><table>
+<center>
+<table>
 <tr>
-<td><div class="sidebar">
+<td>
+<div class="sidebar">
+<div class="sidebar1">
 <div class="flex-items"><h1>Main Page</h1></div>
-<div class="flex-items"><img src="images/wiconborder.png" width="200" height="200"/></div>
+</div>
+<br/>
+<div class="sidebar2">
 <div class="flex-items"><h2>Directory</h2></div>
 <div class="flex-items"><center><p>Main • <a href="https://williamschiv.us/about">About</a> • <a href="https://williamschiv.us/blog">Blog</a> • <a href="https://williamschiv.us/projects">Projects</a> • <a href="https://williamschiv.us/socials">Socials</a></p></center></div>
 <div class="flex items"><center><p><a href="https://williamschiv.us/updates">Updates</a> • <a href="https://williamschiv.us/website">Website</a> • <a href="https://williamschiv.us/contact">Contact</a> • <a href="https://williamschiv.us/q&a">Q&A</a> • <a href="https://williamschiv.us/history">History</a></p></center></div>
 <div class="flex-items"><center><p><a href="https://williamschiv.us/twitch">Twitch</a> • <a href="https://williamschiv.us/youtube">YouTube</a> • <a href="https://williamschiv.us/github">GitHub</a></p></center></div>
+</div>
+<br/>
+<div class="sidebar3">
+<div class="flex-items"><h2>Choose Theme</h2></div>
+<div class="flex-items"><select id="themeSelect">
+    <option value="01">🔴 Red</option>
+    <option value="02">💭 White</option>
+    <option value="03">🏴 Black</option>
+    <option value="04">🟧 Orange</option>
+    <option value="05">⭐ Yellow</option>
+    <option value="06">🍀 Green</option>
+    <option value="07">💧 Cyan</option>
+    <option value="08">🔷 Blue</option>
+    <option value="09">☂️ Purple</option>
+    <option value="10">💗 Pink</option>
+</select></div>
+</div>
+</div>
 </td>
-</div></td>
-<td><div class="container">
+<td>
+<div class="container">
 <div class="flex-items"><h1>Welcome</h1></div>
 <div class="flex-items"><p>Welcome to William's personal website. Here you will find a portfolio of art, color combinations, and miscellaneous stuff I have created.
 <br/><br/>
@@ -109,30 +63,42 @@ The goal for this website is to create something where I can store all of my pro
 This website is still fairly new so a lot is still missing. Over time I will continue to update this website and add new features, so don't expect anything drastic to happen.
 <br/><br/>
 Socials can be found <a href="https://williamschiv.us/socials">here</a>.</p></div>
-<div class="flex-items"><img src="images/homepage.png" width="750" height="200"/></div></td>
+<div class="flex-items"><img src="images/homepage.png" width="750" height="200"/></div>
+</td>
 </tr>
-</table></center>
+</table>
+</center>
 <br/>
 <div class="footer">
-<center><img src="images/discordlogo.png" title="williamschiv#1422" width="50" height="50"/>
+<center>
+<img src="images/discordlogo.png" title="williamschiv#1422" width="50" height="50"/>
 <a href="https://www.twitch.tv/williamschiv" width="50" height="50"><img src="images/twitchlogo.png" width="50" height="50"/></a>
-<a href="https://www.youtube.com/@williamschiv3532" width="50" height="50"><img src="images/youtubelogo.png" width="50" height="50"/></a>
+<a href="https://www.youtube.com/@williamschiv4" width="50" height="50"><img src="images/youtubelogo.png" width="50" height="50"/></a>
 <a href="https://github.com/williamschiv" width="50" height="50"><img src="images/githublogo.png" width="50" height="50"/></a>
-<img src="images/emaillogo.png" title="williamschiv14@gmail.com" width="50" height="50"/></center>
+<img src="images/emaillogo.png" title="williamschiv14@gmail.com" width="50" height="50"/>
+</center>
 </div>
 <script>
-  var images = [], 
-  index = 0;
-  
-  images[0] = "images/redandblack1.png";
-  images[1] = "images/redandblack6.png";
-  images[2] = "images/redandblack7.png";
-  images[3] = "images/redandblack9.png";
-  images[4] = "images/redandblack10.png";
-  images[5] = "images/rainbow.gif";
-  
-  index = Math.floor(Math.random() * images.length);
-  document.body.style.background = "#fff url('"+images[index]+"') repeat center center fixed";
+    function initThemeSelector() {
+        const themeSelect = document.getElementById("themeSelect");
+        const themeStylesheetLink = document.getElementById("themeStylesheetLink");
+        const currentTheme = localStorage.getItem("theme") || "1";
+
+        function activateTheme(themeName) {
+            themeStylesheetLink.setAttribute("href", `css/themes/${themeName}.css`);
+        }
+
+        themeSelect.addEventListener("change", () => {
+            activateTheme(themeSelect.value);
+            localStorage.setItem("theme", themeSelect.value);
+        });
+
+
+        themeSelect.value = currentTheme;
+        activateTheme(currentTheme);
+    }
+
+    initThemeSelector();
 </script>
 </body>
 </html>

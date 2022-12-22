@@ -1,0 +1,86 @@
+:root {
+  --primary-background-color: #0F0F0F;
+  --primary-text-color: #white;
+}
+
+::selection {
+  background: #ffffff;
+  color: #0F0F0F;
+}
+
+::-moz-selection {
+  background: #ffffff;
+  color: #0F0F0F;
+}
+
+body {
+background-image: url("https://i.imgur.com/rv02kcU.png");
+}
+
+.header {
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+.header a {
+  color: #0F0F0F;
+  text-shadow:
+     3px  3px 0 #ffffff,
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
+a {
+  color: blue;
+}
+
+.sidebar1 {
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+.sidebar2 {
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+.sidebar3 {
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+.container {
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+.footer {
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+h1 {
+  color: #000000;
+  text-shadow:
+     3px  3px 0 #ffffff,
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
+h2 {
+  color: #000000;
+  text-shadow:
+     3px  3px 0 #ffffff,
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
+p {
+  color: white;
+}
