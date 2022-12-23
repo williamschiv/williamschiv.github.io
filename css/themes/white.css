@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
 body {
-  background-image: url("backgrounds/3.png");
+  background-image: url("backgrounds/whitebg.png");
 }
 
 ::selection {
   background: #000000;
-  color: #EFC700;
+  color: #ffffff;
 }
 
 ::-moz-selection {
   background: #000000;
-  color: #EFC700;
+  color: #ffffff;
 }
 
 .header {
-  background: #EFC700;
+  background: #FFFFFF;
   border: 3px solid black;
 }
 
@@ -34,27 +34,27 @@ a {
 }
 
 .sidebar1 {
-  background: #EFC700;
+  background: #FFFFFF;
   border: 3px solid black;
 }
 
 .sidebar2 {
-  background: #EFC700;
+  background: #FFFFFF;
   border: 3px solid black;
 }
 
 .sidebar3 {
-  background: #EFC700;
+  background: #FFFFFF;
   border: 3px solid black;
 }
 
 .container {
-  background: #EFC700;
+  background: #FFFFFF;
   border: 3px solid black;
 }
 
 .footer {
-  background: #EFC700;
+  background: #FFFFFF;
   border: 3px solid black;
 }
 
@@ -79,5 +79,5 @@ h2 {
 }
 
 p {
-  color: white;
+  color: black;
 }

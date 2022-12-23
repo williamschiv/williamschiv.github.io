@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
 body {
-  background-image: url("backgrounds/10.png");
+  background-image: url("backgrounds/greenbg.png");
 }
 
 ::selection {
   background: #000000;
-  color: #00DDDD;
+  color: #39BF00;
 }
 
 ::-moz-selection {
   background: #000000;
-  color: #00DDDD;
+  color: #39BF00;
 }
 
 .header {
-  background: #00DDDD;
+  background: #39BF00;
   border: 3px solid black;
 }
 
@@ -34,27 +34,27 @@ a {
 }
 
 .sidebar1 {
-  background: #00DDDD;
+  background: #39BF00;
   border: 3px solid black;
 }
 
 .sidebar2 {
-  background: #00DDDD;
+  background: #39BF00;
   border: 3px solid black;
 }
 
 .sidebar3 {
-  background: #00DDDD;
+  background: #39BF00;
   border: 3px solid black;
 }
 
 .container {
-  background: #00DDDD;
+  background: #39BF00;
   border: 3px solid black;
 }
 
 .footer {
-  background: #00DDDD;
+  background: #39BF00;
   border: 3px solid black;
 }
 

@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
 body {
-  background-image: url("backgrounds/5.png");
+  background-image: url("backgrounds/orangebg.png");
 }
 
 ::selection {
   background: #000000;
-  color: #0000FF;
+  color: #FF6A00;
 }
 
 ::-moz-selection {
   background: #000000;
-  color: #0000FF;
+  color: #FF6A00;
 }
 
 .header {
-  background: #0000FF;
+  background: #FF6A00;
   border: 3px solid black;
 }
 
@@ -30,31 +30,31 @@ body {
 }
 
 a {
-  color: #00FFFF;
+  color: blue;
 }
 
 .sidebar1 {
-  background: #0000FF;
+  background: #FF6A00;
   border: 3px solid black;
 }
 
 .sidebar2 {
-  background: #0000FF;
+  background: #FF6A00;
   border: 3px solid black;
 }
 
 .sidebar3 {
-  background: #0000FF;
+  background: #FF6A00;
   border: 3px solid black;
 }
 
 .container {
-  background: #0000FF;
+  background: #FF6A00;
   border: 3px solid black;
 }
 
 .footer {
-  background: #0000FF;
+  background: #FF6A00;
   border: 3px solid black;
 }
 
