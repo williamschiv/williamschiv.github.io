@@ -34,6 +34,8 @@ body {
 .left-one {
   width: 320px;
   height: 140px;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   margin: 0; 
 }
@@ -41,13 +43,17 @@ body {
 .left-two {
   width: 320px;
   height: 170px;
+  display: flex;
   justify-content: center;
+  flex-flow: row wrap;
   margin: 0; 
 }
 
 .left-three {
   width: 320px;
   height: 110px;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   margin: 0; 
 }
@@ -55,6 +61,8 @@ body {
 .left-four {
   width: 320px;
   height: 50px;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   margin: 0; 
 }
