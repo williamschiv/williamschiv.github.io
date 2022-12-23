@@ -31,28 +31,28 @@ body {
   padding: 1em;
 }
 
-.leftone {
+.left-one {
   width: 320px;
   height: 140px;
   justify-content: center;
   margin: 0; 
 }
 
-.lefttwo {
+.left-two {
   width: 320px;
   height: 170px;
   justify-content: center;
   margin: 0; 
 }
 
-.leftthree {
+.left-three {
   width: 320px;
   height: 110px;
   justify-content: center;
   margin: 0; 
 }
 
-.leftfour {
+.left-four {
   width: 320px;
   height: 50px;
   justify-content: center;
