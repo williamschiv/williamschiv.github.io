@@ -238,18 +238,26 @@ Here you can take a look at a list of sounds you can imagine mentally without ac
 </center>
 </div>
 <script>
-  var images = [], 
-  index = 0;
-  
-  images[0] = "images/redandblack1.png";
-  images[1] = "images/redandblack6.png";
-  images[2] = "images/redandblack7.png";
-  images[3] = "images/redandblack9.png";
-  images[4] = "images/redandblack10.png";
-  images[5] = "images/rainbow.gif";
-  
-  index = Math.floor(Math.random() * images.length);
-  document.body.style.background = "#fff url('"+images[index]+"') repeat center center fixed";
+  function initThemeSelector() {
+      const themeSelect = document.getElementById("themeSelect");
+      const themeStylesheetLink = document.getElementById("themeStylesheetLink");
+      const currentTheme = localStorage.getItem("theme") || "red";
+
+      function activateTheme(themeName) {
+          themeStylesheetLink.setAttribute("href", `css/themes/${themeName}.css`);
+      }
+
+      themeSelect.addEventListener("change", () => {
+          activateTheme(themeSelect.value);
+          localStorage.setItem("theme", themeSelect.value);
+      });
+
+
+      themeSelect.value = currentTheme;
+      activateTheme(currentTheme);
+  }
+
+  initThemeSelector();
 </script>
 </body>
 </html>
