@@ -2,6 +2,7 @@
 
 body {
   background-image: url("css/themes/backgrounds/1.png");
+  background-color: #FF8989;
 }
 
 ::selection {
