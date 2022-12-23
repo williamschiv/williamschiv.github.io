@@ -34,21 +34,29 @@ a {
 }
 
 .left-one {
+  width: 320px;
+  height: 140px;
   background: #EFC700;
   border: 3px solid white;
 }
 
 .left-two {
+  width: 320px;
+  height: 170px;
   background: #EFC700;
   border: 3px solid white;
 }
 
 .left-three {
+  width: 320px;
+  height: 110px;
   background: #EFC700;
   border: 3px solid white;
 }
 
 .left-four {
+  width: 320px;
+  height: 50px;
   background: #EFC700;
   border: 3px solid white;
 }
