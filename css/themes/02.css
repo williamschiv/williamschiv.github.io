@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 body {
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  margin: 0; 
+  padding: 0;
   background-image: url("css/themes/backgrounds/8.png");
 }
 
