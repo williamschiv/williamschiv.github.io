@@ -8,7 +8,7 @@
 <meta name="author" content="William Schoenling"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
-<link rel="stylesheet" type="text/css" id="themeStylesheetLink" href="css/themes/01.css"/>
+<link rel="stylesheet" type="text/css" id="themeStylesheetLink" href="css/themes/red.css"/>
 <link rel="stylesheet" type="text/css" href="css/common.css"/>
 </head>
 <body>
@@ -39,16 +39,16 @@
 <div class="sidebar3">
 <div class="flex-items"><h2>Choose Theme</h2></div>
 <div class="flex-items"><select id="themeSelect">
-    <option value="01">🔴 Red</option>
-    <option value="02">💭 White</option>
-    <option value="03">🏴 Black</option>
-    <option value="04">🟧 Orange</option>
-    <option value="05">⭐ Yellow</option>
-    <option value="06">🍀 Green</option>
-    <option value="07">💧 Cyan</option>
-    <option value="08">🔷 Blue</option>
-    <option value="09">☂️ Purple</option>
-    <option value="10">💗 Pink</option>
+    <option value="red">🔴 Red</option>
+    <option value="white">💭 White</option>
+    <option value="black">🏴 Black</option>
+    <option value="orange">🟧 Orange</option>
+    <option value="yellow">⭐ Yellow</option>
+    <option value="green">🍀 Green</option>
+    <option value="cyan">💧 Cyan</option>
+    <option value="blue">🔷 Blue</option>
+    <option value="purple">☂️ Purple</option>
+    <option value="pink">💗 Pink</option>
 </select></div>
 </div>
 </div>
@@ -81,7 +81,7 @@ Socials can be found <a href="https://williamschiv.us/socials">here</a>.</p></di
     function initThemeSelector() {
         const themeSelect = document.getElementById("themeSelect");
         const themeStylesheetLink = document.getElementById("themeStylesheetLink");
-        const currentTheme = localStorage.getItem("theme") || "01";
+        const currentTheme = localStorage.getItem("theme") || "red";
 
         function activateTheme(themeName) {
             themeStylesheetLink.setAttribute("href", `css/themes/${themeName}.css`);
