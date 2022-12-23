@@ -1,6 +1,7 @@
-:root {
-  --primary-background-color: #FFFFFF;
-  --primary-text-color: #000000;
+@charset "UTF-8";
+
+body {
+  background-image: url("css/themes/backgrounds/8.png");
 }
 
 ::selection {
@@ -11,11 +12,6 @@
 ::-moz-selection {
   background: #000000;
   color: #ffffff;
-}
-
-body {
-  background-image: url("css/themes/backgrounds/8.png");
-  background-color: #FFFFFF;
 }
 
 .header {

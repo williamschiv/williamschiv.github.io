@@ -1,7 +1,4 @@
-:root {
-  --primary-background-color: #0F0F0F;
-  --primary-text-color: #white;
-}
+@charset "UTF-8";
 
 ::selection {
   background: #ffffff;
