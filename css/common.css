@@ -54,8 +54,6 @@ body {
 }
 
 .container {
-  width: 1050px;
-  height: 530px;
   justify-content: center;
   margin: 0; 
 }
