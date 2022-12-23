@@ -31,28 +31,28 @@ body {
   padding: 1em;
 }
 
-.sidebar1 {
+.leftone {
   width: 320px;
   height: 140px;
   justify-content: center;
   margin: 0; 
 }
 
-.sidebar2 {
+.lefttwo {
   width: 320px;
   height: 170px;
   justify-content: center;
   margin: 0; 
 }
 
-.sidebar3 {
+.leftthree {
   width: 320px;
   height: 110px;
   justify-content: center;
   margin: 0; 
 }
 
-.sidebar4 {
+.leftfour {
   width: 320px;
   height: 50px;
   justify-content: center;

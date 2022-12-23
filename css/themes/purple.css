@@ -33,24 +33,24 @@ a {
   color: #00FFFF;
 }
 
-.sidebar1 {
+.leftone {
   background: #8900C9;
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
-.sidebar2 {
+.lefttwo {
   background: #8900C9;
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
-.sidebar3 {
+.leftthree {
   background: #8900C9;
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
-.sidebar4 {
+.leftfour {
   background: #8900C9;
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
 .container {
