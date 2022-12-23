@@ -37,28 +37,28 @@ a {
   width: 320px;
   height: 140px;
   background: #0000FF;
-  border: 3px solid white;
+  border: 3px solid black;
 }
 
 .left-two {
   width: 320px;
   height: 170px;
   background: #0000FF;
-  border: 3px solid white;
+  border: 3px solid black;
 }
 
 .left-three {
   width: 320px;
   height: 110px;
   background: #0000FF;
-  border: 3px solid white;
+  border: 3px solid black;
 }
 
 .left-four {
   width: 320px;
   height: 50px;
   background: #0000FF;
-  border: 3px solid white;
+  border: 3px solid black;
 }
 
 .container {
