@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+  background-image: url("backgrounds/4.png");
+}
+
 ::selection {
   background: #000000;
   color: #39BF00;
@@ -8,11 +12,6 @@
 ::-moz-selection {
   background: #000000;
   color: #39BF00;
-}
-
-body {
-  background-image: url("backgrounds/4.png");
-  background-color: #39BF00;
 }
 
 .header {
