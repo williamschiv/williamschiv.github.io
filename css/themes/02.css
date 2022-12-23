@@ -6,7 +6,7 @@ body {
   position: relative;
   margin: 0; 
   padding: 0;
-  background-image: url("/css/themes/backgrounds/8.png");
+  background-image: url("backgrounds/8.png");
 }
 
 ::selection {
