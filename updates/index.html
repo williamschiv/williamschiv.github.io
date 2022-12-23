@@ -1,82 +1,19 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
 <title>Updates</title>
+<meta charset="UTF-8"/>
+<meta name="description" content="The personal website for William Schoenling."/>
+<meta name="keywords" content="HTML,CSS,JavaScript,Personal,William"/>
+<meta name="author" content="William Schoenling"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
+<link rel="stylesheet" type="text/css" id="themeStylesheetLink" href="css/themes/red.css"/>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
 <style>
-.header {
-  height: 50px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  list-style: none;
-  margin: 0; 
-  background: red;
-  border: 3px solid black;
-}
-
-.header a {
-  text-decoration: none;
-  font-family: 'proxima-nova', sans-serif;
-  font-weight: bold;
-  display: block;
-  padding: 1em;
-  color: white;
-}
-
-.sidebar {
-  width: 300px;
-  height: 530px;
-  justify-content: center;
-  margin: 0; 
-  background: red;
-  border: 3px solid black;
-}
-
 .container {
   width: 1100px;
   height: 530px;
-  justify-content: center;
-  margin: 0; 
-  background: red;
-  border: 3px solid black;
-}
-
-.footer {
-  height: 50px;
-  justify-content: center;
-  margin: 0; 
-  background: red;
-  border: 3px solid black;
-}
-
-.flex-items {
-  clear: both;
-  text-align: center;
-  line-height: 1;
-}
-
-table, td, th {
-  border: 0px solid black;
-  border-collapse: collapse;
-  width: 75%;
-  height: 0px;
-  padding: 15px;
-}
-
-h1 {
-  font-family: 'proxima-nova', serif;
-  color: white;
-  font-size: 40px;
-}
-
-h2 {
-  font-family: 'proxima-nova', serif;
-  color: white;
-}
-
-p {
-  font-family: 'proxima-nova', serif;
-  color: white;
 }
 </style>
 </head>
@@ -89,19 +26,53 @@ p {
   <li><a href="https://williamschiv.us/socials">Socials</a></li>
 </ul>
 <br/>
-<center><table>
+<center>
+<table>
 <tr>
-<td><div class="sidebar">
+<td>
+<div class="sidebar">
+<div class="left-one">
 <div class="flex-items"><h1>Updates</h1></div>
-<div class="flex-items"><img src="images/wiconborder.png" width="200" height="200"/></div>
-<div class="flex-items"><h2>Directory</h2></div>
-<div class="flex-items"><center><p><a href="https://williamschiv.us">Main</a> • <a href="https://williamschiv.us/about">About</a> • <a href="https://williamschiv.us/blog">Blog</a> • <a href="https://williamschiv.us/projects">Projects</a> • <a href="https://williamschiv.us/socials">Socials</a></p></center></div>
-<div class="flex items"><center><p>Updates • <a href="https://williamschiv.us/website">Website</a> • <a href="https://williamschiv.us/contact">Contact</a> • <a href="https://williamschiv.us/q&a">Q&A</a> • <a href="https://williamschiv.us/history">History</a></p></center></div>
-<div class="flex-items"><center><p><a href="https://williamschiv.us/twitch">Twitch</a> • <a href="https://williamschiv.us/youtube">YouTube</a> • <a href="https://williamschiv.us/github">GitHub</a></p></center></div>
+</div>
+<br/>
+<div class="left-two">
+<div class="flex-items"><h2>Directory</h2>
+<center>
+<p><a href="https://williamschiv.us/">Main</a> • <a href="https://williamschiv.us/about">About</a> • <a href="https://williamschiv.us/blog">Blog</a> • <a href="https://williamschiv.us/projects">Projects</a> • <a href="https://williamschiv.us/socials">Socials</a>
+<br/><br/>
+Updates • <a href="https://williamschiv.us/website">Website</a> • <a href="https://williamschiv.us/contact">Contact</a> • <a href="https://williamschiv.us/q&a">Q&A</a> • <a href="https://williamschiv.us/history">History</a>
+<br/><br/>
+<a href="https://williamschiv.us/twitch">Twitch</a> • <a href="https://williamschiv.us/youtube">YouTube</a> • <a href="https://williamschiv.us/github">GitHub</a></p>
+</center>
+</div>
+</div>
+<br/><br/>
+<div class="left-three">
+<div class="flex-items"><h2>Choose Theme</h2>
+<select id="themeSelect">
+    <option value="red">🔴 Red</option>
+    <option value="white">💭 White</option>
+    <option value="black">🏴 Black</option>
+    <option value="orange">🟧 Orange</option>
+    <option value="yellow">⭐ Yellow</option>
+    <option value="green">🍀 Green</option>
+    <option value="cyan">💧 Cyan</option>
+    <option value="blue">🔷 Blue</option>
+    <option value="purple">☂️ Purple</option>
+    <option value="pink">💗 Pink</option>
+</select></div>
+</div>
+<br/>
+<div class="left-four">
+<div class="flex-items"><a href="#top"><h3>↑ Jump to Top ↑</h3></a></div>
+</div>
+</div>
 </td>
-</div></td>
-<td><div class="container">
+<td>
+<div class="container">
 <div class="flex-items"><h1>Website Announcements/Updates</h1></div>
+<div class="flex-items"><h2>12/23/22</h2>
+<p>Themes are now available, so the website layout has changed slightly.</p>
 <div class="flex-items"><h2>12/19/22</h2>
 <p><a href="https://williamschiv.us/mental-sounds">Mental Sounds</a> & <a href="https://williamschiv.us/art">Art</a> are now complete.</p></div>
 <div class="flex-items"><h2>12/18/22</h2>
@@ -114,14 +85,17 @@ p {
 <p>Basic layout complete.</p></div></div>
 </td>
 </tr>
-</table></center>
+</table>
+</center>
 <br/>
 <div class="footer">
-<center><img src="images/discordlogo.png" title="williamschiv#1422" width="50" height="50"/>
+<center>
+<img src="images/discordlogo.png" title="williamschiv#1422" width="50" height="50"/>
 <a href="https://www.twitch.tv/williamschiv" width="50" height="50"><img src="images/twitchlogo.png" width="50" height="50"/></a>
 <a href="https://www.youtube.com/@williamschiv4" width="50" height="50"><img src="images/youtubelogo.png" width="50" height="50"/></a>
 <a href="https://github.com/williamschiv" width="50" height="50"><img src="images/githublogo.png" width="50" height="50"/></a>
-<img src="images/emaillogo.png" title="williamschiv14@gmail.com" width="50" height="50"/></center>
+<img src="images/emaillogo.png" title="williamschiv14@gmail.com" width="50" height="50"/>
+</center>
 </div>
 <script>
   var images = [], 
