@@ -95,6 +95,16 @@ h2 {
      1px  1px 0 #ffffff;
 }
 
+h3 {
+  color: #000000;
+  text-shadow:
+     3px  3px 0 #ffffff,
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
 p {
   color: white;
 }
