@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: Schivism;
+  src: url('Schivism.ttf'); } 
+
 body {
   width: 100%;
   justify-content: center;
@@ -90,7 +94,7 @@ a {
 }
 
 h1 {
-  font-family: 'proxima-nova', serif;
+  font-family: Schivism
   font-size: 40px;
 }
 
