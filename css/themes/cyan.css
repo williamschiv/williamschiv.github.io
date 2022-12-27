@@ -37,6 +37,8 @@ a {
 .left-one {
   width: 320px;
   height: 140px;
+  background-image: url('backgrounds/leftcyanbg.png');
+  background-size: cover;
   background: #00DDDD;
   border: 3px solid black;
 }

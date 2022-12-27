@@ -37,6 +37,8 @@ a {
 .left-one {
   width: 320px;
   height: 140px;
+  background-image: url('backgrounds/leftgreenbg.png');
+  background-size: cover;
   background: #39BF00;
   border: 3px solid black;
 }
