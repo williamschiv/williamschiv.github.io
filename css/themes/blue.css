@@ -14,8 +14,17 @@ body {
   color: #0000FF;
 }
 
+.whole-body {
+  background-color: #4460FF;
+  border: 3px solid black;
+}
+
+.banner {
+  background-image: url('backgrounds/wblueicon.png'), url('backgrounds/wblueicon.png'), url("backgrounds/wblue.png");
+  border: 3px solid black;
+}
+
 .header {
-  height: 50px;
   background: #0000FF;
   border: 3px solid black;
 }
@@ -35,32 +44,23 @@ a {
 }
 
 .left-one {
-  width: 320px;
-  height: 140px;
   background-image: url('backgrounds/leftbluebg.png');
   background-size: cover;
-  background: #0000FF;
   border: 3px solid black;
 }
 
 .left-two {
-  width: 320px;
-  height: 170px;
   background: #0000FF;
   border: 3px solid black;
 }
 
 .left-three {
-  width: 320px;
-  height: 110px;
-  background: #0000FF;
+  background-image: url('backgrounds/leftbluebg3.png');
+  background-size: cover;
   border: 3px solid black;
 }
 
 .left-four {
-  width: 320px;
-  height: 55px;
-  background: #0000FF;
   border: 3px solid black;
 }
 
@@ -70,12 +70,11 @@ a {
 }
 
 .footer {
-  height: 50px;
   background: #0000FF;
   border: 3px solid black;
 }
 
-h1 {
+.footer a {
   color: white;
   text-shadow:
      3px  3px 0 #000,
@@ -85,7 +84,7 @@ h1 {
      1px  1px 0 #000;
 }
 
-h2 {
+.footer p {
   color: white;
   text-shadow:
      3px  3px 0 #000,
@@ -95,7 +94,11 @@ h2 {
      1px  1px 0 #000;
 }
 
-h3 {
+button {
+  background-image: url('backgrounds/buttonblue.png');
+}
+
+h1, h2, h3 {
   color: white;
   text-shadow:
      3px  3px 0 #000,

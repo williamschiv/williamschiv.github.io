@@ -39,7 +39,6 @@ a {
   height: 140px;
   background-image: url('backgrounds/leftblackbg.png');
   background-size: cover;
-  background: #0F0F0F;
   border: 3px solid white;
 }
 
@@ -53,7 +52,8 @@ a {
 .left-three {
   width: 320px;
   height: 110px;
-  background: #0F0F0F;
+  background-image: url('backgrounds/leftblackbg3.png');
+  background-size: cover;
   border: 3px solid white;
 }
 
