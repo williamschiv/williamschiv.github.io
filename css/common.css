@@ -267,7 +267,7 @@ span {
 }
 
 hr {
-  width: 50%;
+  width: 85%;
   border: 1px solid black;
   border-radius: 1px;
   border-style: dashed;
@@ -301,4 +301,24 @@ a {
 p {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
+}
+
+.section-one {
+  float: left;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.section-two {
+  float: left;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.clearfix {
+  clear: both;
 }
