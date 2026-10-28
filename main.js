@@ -2,15 +2,30 @@ function script1() {
   function initThemeSelector() {
       const themeSelect = document.getElementById("themeSelect");
       const themeStylesheetLink = document.getElementById("themeStylesheetLink");
-      const currentTheme = localStorage.getItem("theme") || "red";
+      if (!themeSelect || !themeStylesheetLink) return;
+
+      // Resolve themes beside the initial stylesheet, on every page.
+      const themeDirectory = new URL(".", themeStylesheetLink.href);
+      const availableThemes = Array.from(themeSelect.options, option => option.value);
+      let currentTheme = "red";
+      try {
+          const savedTheme = localStorage.getItem("theme");
+          if (availableThemes.includes(savedTheme)) currentTheme = savedTheme;
+      } catch {
+          // Theme switching still works when browser storage is unavailable.
+      }
 
       function activateTheme(themeName) {
-          themeStylesheetLink.setAttribute("href", `css/themes/${themeName}.css`);
+          themeStylesheetLink.href = new URL(`${themeName}.css`, themeDirectory).href;
       }
 
       themeSelect.addEventListener("change", () => {
           activateTheme(themeSelect.value);
-          localStorage.setItem("theme", themeSelect.value);
+          try {
+              localStorage.setItem("theme", themeSelect.value);
+          } catch {
+              // Keep the selected theme active for this page.
+          }
       });
 
 
