@@ -322,3 +322,8 @@ p {
 .clearfix {
   clear: both;
 }
+
+.directory-links {
+  text-align: left;
+  line-height: 1.5;
+}
