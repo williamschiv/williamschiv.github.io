@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("backgrounds/redbg.png");
+}
+
+::selection {
+  background: #000000;
+  color: #ff0000;
+}
+
+::-moz-selection {
+  background: #000000;
+  color: #ff0000;
+}
+
+.whole-body {
+  background: #FF4444;
+  border: 3px solid black;
+}
+
+.banner {
+  background-image: url('backgrounds/wredicon.png'), url('backgrounds/wredicon.png'), url("backgrounds/wred.png");
+  border: 3px solid black;
+}
+
+.header {
+  background: red;
+  border: 3px solid black;
+}
+
+.header a {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+a {
+  color: blue;
+}
+
+.left-one {
+  background-image: url('backgrounds/leftredbg.png');
+  border: 3px solid black;
+}
+
+.left-two {
+  background: red;
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.left-three {
+  background-image: url('backgrounds/leftredbg3.png');
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.container {
+  background: red;
+  border: 3px solid black;
+}
+
+.footer {
+  background: red;
+  border: 3px solid black;
+}
+
+.footer a {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.footer p {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+button {
+  background-image: url('backgrounds/buttonred.png');
+}
+
+h1, h2, h3 {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+p {
+  color: white;
+}

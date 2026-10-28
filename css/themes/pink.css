@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("backgrounds/pinkbg.png");
+}
+
+::selection {
+  background: #000000;
+  color: #FF00DC;
+}
+
+::-moz-selection {
+  background: #000000;
+  color: #FF00DC;
+}
+
+.whole-body {
+  background-color: #FF63EA;
+  border: 3px solid black;
+}
+
+.banner {
+  background-image: url('backgrounds/wpinkicon.png'), url('backgrounds/wpinkicon.png'), url("backgrounds/wpink.png");
+  border: 3px solid black;
+}
+
+.header {
+  background: #FF00DC;
+  border: 3px solid black;
+}
+
+.header a {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+a {
+  color: blue;
+}
+
+.left-one {
+  background-image: url('backgrounds/leftpinkbg.png');
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.left-two {
+  background: #FF00DC;
+  border: 3px solid black;
+}
+
+.left-three {
+  background-image: url('backgrounds/leftpinkbg3.png');
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.left-four {
+  border: 3px solid black;
+}
+
+.container {
+  background: #FF00DC;
+  border: 3px solid black;
+}
+
+.footer {
+  height: 50px;
+  background: #FF00DC;
+  border: 3px solid black;
+}
+
+.footer a {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.footer p {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+button {
+  background-image: url('backgrounds/buttonpink.png');
+}
+
+h1, h2, h3 {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+p {
+  color: white;
+}

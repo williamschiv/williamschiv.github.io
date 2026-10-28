@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("backgrounds/blackbg.png");
+}
+
+::selection {
+  background: #ffffff;
+  color: #0F0F0F;
+}
+
+::-moz-selection {
+  background: #ffffff;
+  color: #0F0F0F;
+}
+
+.header {
+  height: 50px;
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+.header a {
+  color: #0F0F0F;
+  text-shadow:
+     3px  3px 0 #ffffff,
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
+a {
+  color: blue;
+}
+
+.left-one {
+  width: 320px;
+  height: 140px;
+  background-image: url('backgrounds/leftblackbg.png');
+  background-size: cover;
+  border: 3px solid white;
+}
+
+.left-two {
+  width: 320px;
+  height: 170px;
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+.left-three {
+  width: 320px;
+  height: 110px;
+  background-image: url('backgrounds/leftblackbg3.png');
+  background-size: cover;
+  border: 3px solid white;
+}
+
+.left-four {
+  width: 320px;
+  height: 55px;
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+.container {
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+.footer {
+  height: 50px;
+  background: #0F0F0F;
+  border: 3px solid white;
+}
+
+h1 {
+  color: #000000;
+  text-shadow:
+     3px  3px 0 #ffffff,
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
+h2 {
+  color: #000000;
+  text-shadow:
+     3px  3px 0 #ffffff,
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
+h3 {
+  color: #000000;
+  text-shadow:
+     3px  3px 0 #ffffff,
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
+p {
+  color: white;
+}

@@ -1,0 +1,17 @@
+.section-one {
+  margin-left: -25em;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  font-family: 'proxima-nova', sans-serif;
+  color: white;
+}
+
+.section-two {
+  margin-left: 0em;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  font-family: 'proxima-nova', sans-serif;
+  color: white;
+}

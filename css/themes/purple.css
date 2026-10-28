@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("backgrounds/purplebg.png");
+}
+
+::selection {
+  background: #000000;
+  color: #8900C9;
+}
+
+::-moz-selection {
+  background: #000000;
+  color: #8900C9;
+}
+
+.whole-body {
+  background-color: #9E00E8;
+  border: 3px solid black;
+}
+
+.banner {
+  background-image: url('backgrounds/wpurpleicon.png'), url('backgrounds/wpurpleicon.png'), url("backgrounds/wpurple.png");
+  border: 3px solid black;
+}
+
+.header {
+  background: #8900C9;
+  border: 3px solid black;
+}
+
+.header a {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+a {
+  color: #00FFFF;
+}
+
+.left-one {
+  background-image: url('backgrounds/leftpurplebg.png');
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.left-two {
+  background: #8900C9;
+  border: 3px solid black;
+}
+
+.left-three {
+  background-image: url('backgrounds/leftpurplebg3.png');
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.left-four {
+  border: 3px solid black;
+}
+
+.container {
+  background: #8900C9;
+  border: 3px solid black;
+}
+
+.footer {
+  height: 50px;
+  background: #8900C9;
+  border: 3px solid black;
+}
+
+.footer a {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.footer p {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+button {
+  background-image: url('backgrounds/buttonpurple.png');
+}
+
+h1, h2, h3 {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+p {
+  color: white;
+}

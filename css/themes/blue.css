@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("backgrounds/bluebg.png");
+}
+
+::selection {
+  background: #000000;
+  color: #0000FF;
+}
+
+::-moz-selection {
+  background: #000000;
+  color: #0000FF;
+}
+
+.whole-body {
+  background-color: #4460FF;
+  border: 3px solid black;
+}
+
+.banner {
+  background-image: url('backgrounds/wblueicon.png'), url('backgrounds/wblueicon.png'), url("backgrounds/wblue.png");
+  border: 3px solid black;
+}
+
+.header {
+  background: #0000FF;
+  border: 3px solid black;
+}
+
+.header a {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+a {
+  color: #00FFFF;
+}
+
+.left-one {
+  background-image: url('backgrounds/leftbluebg.png');
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.left-two {
+  background: #0000FF;
+  border: 3px solid black;
+}
+
+.left-three {
+  background-image: url('backgrounds/leftbluebg3.png');
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.left-four {
+  border: 3px solid black;
+}
+
+.container {
+  background: #0000FF;
+  border: 3px solid black;
+}
+
+.footer {
+  background: #0000FF;
+  border: 3px solid black;
+}
+
+.footer a {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.footer p {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+button {
+  background-image: url('backgrounds/buttonblue.png');
+}
+
+h1, h2, h3 {
+  color: white;
+  text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+p {
+  color: white;
+}
